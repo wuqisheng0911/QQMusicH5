@@ -1,0 +1,17 @@
+[{
+	"song_Name":"追光者",
+	"singer":"岑宁儿",
+	"song_time":"03:55",
+	"song_photo":"./../source/追光者.jpg",
+	"song_ly":"./../source/追光者.txt",
+	"song_url":"./../source/追光者_原声带.mp3",
+	"song_album":"夏至未至 电视剧原声带"
+},{
+	"song_Name":"风的季节",
+	"singer":"徐小凤",
+	"song_time":"04:04",
+	"song_photo":"./../source/徐小凤.jpg",
+	"song_ly":"./../source/风的季节.txt",
+	"song_url":"./../source/风的季节_徐小凤.mp3",
+	"song_album":"徐小凤接触2000精选"
+}]

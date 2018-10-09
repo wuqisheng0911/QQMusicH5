@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="../css/jquery.mCustomScrollbar.min.css">
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/index.css">
+	<script src="../javascript/jquery-2.1.4.min.js"></script>
+	<script src="../javascript/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script src="../javascript/Player.js"></script>
+	<script src="../javascript/index.js"></script>
+</head>
+<body>
+	<div class="header clearfix">
+		<h1>
+			<a href="#">
+				<img src="../images/player_logo.png" alt="">
+			</a>
+		</h1>
+		<div class="registe">
+			<a href="#"><span>登录</span></a>
+			<a href="#"><span>设置</span></a>
+		</div>
+	</div>
+	<div class="content">
+		<div class="content_in">
+			<div class="songlist_toolbar" data-mcs-theme="dark-3">
+				<a href="javascript:void(0)"><i></i><span>收藏</span></a><a href="javascript:void(0)"><i></i><span>添加到</span></a><a href="javascript:void(0)"><i></i><span>下载</span></a><a href="javascript:void(0)"><i></i><span>删除</span></a><a href="javascript:void(0)"><i></i><span>清空列表</span></a>
+			</div>
+			<div class="songlist_content">
+				<ul class="songlist_content-in">
+					<li class="clearfix">
+						<span class="check allChecked checked"></span>
+						<div>歌曲</div>
+						<span class="song-singer">歌手</span>
+						<span class="song-time">时长</span>
+					</li>
+					<li class="clearfix">
+						<span class="check"></span>
+						<i class="song-index"></i>
+						<div class="song-name"></div>
+						<div class="icon-menu-list clearfix">
+							<a href="javascript:void(0)" class="icon-menu play-btn"></a>
+							<a href="javascript:void(0)" class="icon-menu"></a>
+							<a href="javascript:void(0)" class="icon-menu"></a>
+							<a href="javascript:void(0)" class="icon-menu"></a>
+						</div>
+						<span class="song-singer"><a href="#"></a></span>
+						<a href="javascript:void(0)" class="icon-menu"></a>
+						<span class="song-time"></span>
+					</li>
+				</ul>
+			</div>
+			<div class="song-info">
+				<div class="song-info-info">
+					<a href="javascript:void(0)" class="singer-photo">
+						<img src="./../images/player_cover.png" alt="singer-photo">
+					</a>
+					<div class="song_info_name">
+						<span>歌曲名：</span>
+						<a href="#"></a>
+					</div>
+					<div class="song_info_singer">
+						<span>歌手名：</span>
+						<a href="#"></a>
+					</div>
+					<div class="song_info_ablum">
+						<span>专辑名：</span>
+						<a href="#"></a>
+					</div>
+				</div>
+				<div class="song-info-lry">
+					<ul class="lry-in">
+						<!-- <li class="on"><span>123</span></li>
+						<li><span>123</span></li>
+						<li><span>123</span></li> -->
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="footer_in">
+			<div class="play-left">
+				<a href="javascript:void(0);" class="prev"></a>
+				<a href="javascript:void(0);" class="play-left-2 pause"></a>
+				<a href="javascript:void(0);" class="next"></a>
+			</div>
+			<div class="play-center player-bar">
+				<div class="player-bar-top">
+					<a href="#" class="player-bar-top-song"></a>
+					<i></i>
+					<a href="#" class="player-bar-top-singer"></a>
+					<span class="dru-time"></span>
+					<span class="partition"></span>
+					<span class="cur-time"></span>
+				</div>
+				<div class="player-bar-bottom">
+					<div class="progress"></div>
+					<span class="progress-dot"></span>
+				</div>
+			</div>
+			<div class="play-right">
+				<a href="javascript:void(0);" class="mode"></a>
+				<a href="javascript:void(0);" class="msic-fav"></a>
+				<a href="javascript:void(0);" class="download"></a>
+				<a href="javascript:void(0);" class="commit"></a>
+				<a href="javascript:void(0);" class="clear"></a>
+				<a href="javascript:void(0);" class="vol"></a>
+				<div class="vol-control">
+					<div class="vol-pro"></div>
+					<span class="vol-pro-dot"></span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="bg-main"></div>
+	<div class="bg-cover"></div>
+	<audio src=""></audio>
+</body>
+</html>
